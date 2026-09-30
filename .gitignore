@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project data (local database, exports, generated files)
+data/*.db
+data/exports/
+data/generated/
+
+# Logs
+*.log
+
+# Type checkers / linters cache
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
